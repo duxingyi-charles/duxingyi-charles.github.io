@@ -11,10 +11,6 @@
   </url>
   
   <url>
-    <loc>https://duxingyi-charles.github.io/author/charles-du/</loc>
-  </url>
-  
-  <url>
     <loc>https://duxingyi-charles.github.io/</loc>
   </url>
   
@@ -36,6 +32,10 @@
   
   <url>
     <loc>https://duxingyi-charles.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://duxingyi-charles.github.io/author/xingyi-du/</loc>
   </url>
   
 </urlset>
