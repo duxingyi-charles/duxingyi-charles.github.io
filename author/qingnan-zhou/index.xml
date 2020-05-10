@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Qingnan Zhou | Charles Du&#39;s World</title>
+    <title>Qingnan Zhou | Charles Du&#39;s Homepage</title>
     <link>https://duxingyi-charles.github.io/author/qingnan-zhou/</link>
       <atom:link href="https://duxingyi-charles.github.io/author/qingnan-zhou/index.xml" rel="self" type="application/rss+xml" />
     <description>Qingnan Zhou</description>
@@ -17,7 +17,60 @@
       <link>https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/</link>
       <pubDate>Mon, 04 May 2020 17:23:54 -0500</pubDate>
       <guid>https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/</guid>
-      <description>&lt;p&gt;Something more&amp;hellip;&lt;/p&gt;
+      <description>&lt;h3 id=&#34;results&#34;&gt;&lt;strong&gt;Results&lt;/strong&gt;&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-1-injectively-mapping-a-complex-surface-mesh-lucy-48k-vertices-to-a-non-convex-boundary-letter-g-with-zoom-ins-on-the-left-and-mapping-a-tetrahedral-mesh-armadillo-6k-vertices-to-a-highly-deformed-target-surface-on-the-right-as-a-result-of-minimizing-our-novel-energy-these-two-examples-are-part-of-our-new-benchmark-data-set&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/TLC-fig1.png&#34; data-caption=&#34;Figure 1. Injectively mapping a complex surface mesh (Lucy, 48K vertices) to a non-convex boundary (letter “G”, with zoom-ins), on the left, and mapping a tetrahedral mesh (Armadillo, 6K vertices) to a highly deformed target surface, on the right, as a result of minimizing our novel energy. These two examples are part of our new benchmark data set.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/TLC-fig1.png&#34; alt=&#34;fig1&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 1. Injectively mapping a complex surface mesh (Lucy, 48K vertices) to a non-convex boundary (letter “G”, with zoom-ins), on the left, and mapping a tetrahedral mesh (Armadillo, 6K vertices) to a highly deformed target surface, on the right, as a result of minimizing our novel energy. These two examples are part of our new benchmark data set.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This video demonstrates the process of our method on a complex example. The initial mapping has 3115 inverted triangles (colored red). Our method computes an injective mapping within 120 iterations.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;lucy_G.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 </description>
     </item>
     

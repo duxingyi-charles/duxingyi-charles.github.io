@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dong-Ming Yan | Charles Du&#39;s World</title>
+    <title>Dong-Ming Yan | Charles Du&#39;s Homepage</title>
     <link>https://duxingyi-charles.github.io/author/dong-ming-yan/</link>
       <atom:link href="https://duxingyi-charles.github.io/author/dong-ming-yan/index.xml" rel="self" type="application/rss+xml" />
     <description>Dong-Ming Yan</description>
@@ -17,7 +17,41 @@
       <link>https://duxingyi-charles.github.io/publication/field-aligned-isotropic-surface-remeshing/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
       <guid>https://duxingyi-charles.github.io/publication/field-aligned-isotropic-surface-remeshing/</guid>
-      <description></description>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-1-given-a-user-defined-directional-field-left-our-method-aligns-the-mesh-edges-with-the-field-direction-middle-left-the-result-is-a-high-quality-remeshing-with-less-singular-vertices-right&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/fcvt-cylinder.png&#34; data-caption=&#34;Figure 1. Given a user-defined directional field (left), our method aligns the mesh edges with the field direction (middle left). The result is a high quality remeshing with less singular vertices (right).&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/fcvt-cylinder.png&#34; alt=&#34;flowchart of algorithm&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 1. Given a user-defined directional field (left), our method aligns the mesh edges with the field direction (middle left). The result is a high quality remeshing with less singular vertices (right).
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
     </item>
     
   </channel>
