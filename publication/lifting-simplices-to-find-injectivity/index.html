@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="Mapping a source mesh into a target domain while preserving local injectivity is an important but highly non-trivial task. Existing methods either require an already-injective starting configuration, which is often not available, or rely on sophisticated solving schemes. We propose a novel energy form, called Total Lifted Content (TLC), that is equipped with theoretical properties desirable for injectivity optimization. By lifting the simplices of the mesh into a higher dimension and measuring their contents (2D area or 3D volume) there, TLC is smooth over the entire embedding space and its global minima are always injective. The energy is simple to minimize using standard gradient-based solvers. Our method achieved 100% success rate on an extensive benchmark of embedding problems for triangular and tetrahedral meshes, on which existing methods only have varied success.">
+  <meta name="description" content="Figure 1. Injectively mapping a complex surface mesh (Lucy, 48K vertices) to a non-convex boundary (letter “G”, with zoom-ins), on the left, and mapping a tetrahedral mesh (Armadillo, 6K vertices) to a highly deformed target surface, on the right, as a result of minimizing our novel energy.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/">
@@ -234,7 +234,7 @@
   <meta property="og:site_name" content="Charles Du&#39;s Homepage">
   <meta property="og:url" content="https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/">
   <meta property="og:title" content="Lifting Simplices to Find Injectivity | Charles Du&#39;s Homepage">
-  <meta property="og:description" content="Mapping a source mesh into a target domain while preserving local injectivity is an important but highly non-trivial task. Existing methods either require an already-injective starting configuration, which is often not available, or rely on sophisticated solving schemes. We propose a novel energy form, called Total Lifted Content (TLC), that is equipped with theoretical properties desirable for injectivity optimization. By lifting the simplices of the mesh into a higher dimension and measuring their contents (2D area or 3D volume) there, TLC is smooth over the entire embedding space and its global minima are always injective. The energy is simple to minimize using standard gradient-based solvers. Our method achieved 100% success rate on an extensive benchmark of embedding problems for triangular and tetrahedral meshes, on which existing methods only have varied success."><meta property="og:image" content="https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/featured.jpg">
+  <meta property="og:description" content="Figure 1. Injectively mapping a complex surface mesh (Lucy, 48K vertices) to a non-convex boundary (letter “G”, with zoom-ins), on the left, and mapping a tetrahedral mesh (Armadillo, 6K vertices) to a highly deformed target surface, on the right, as a result of minimizing our novel energy."><meta property="og:image" content="https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/featured.jpg">
   <meta property="twitter:image" content="https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/featured.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -286,7 +286,7 @@
       "url": "https://duxingyi-charles.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Mapping a source mesh into a target domain while preserving local injectivity is an important but highly non-trivial task. Existing methods either require an already-injective starting configuration, which is often not available, or rely on sophisticated solving schemes. We propose a novel energy form, called Total Lifted Content (TLC), that is equipped with theoretical properties desirable for injectivity optimization. By lifting the simplices of the mesh into a higher dimension and measuring their contents (2D area or 3D volume) there, TLC is smooth over the entire embedding space and its global minima are always injective. The energy is simple to minimize using standard gradient-based solvers. Our method achieved 100% success rate on an extensive benchmark of embedding problems for triangular and tetrahedral meshes, on which existing methods only have varied success."
+  "description": "Figure 1. Injectively mapping a complex surface mesh (Lucy, 48K vertices) to a non-convex boundary (letter “G”, with zoom-ins), on the left, and mapping a tetrahedral mesh (Armadillo, 6K vertices) to a highly deformed target surface, on the right, as a result of minimizing our novel energy."
 }
 </script>
 
@@ -645,9 +645,6 @@
   <div class="article-container">
 
     
-    <h3>Abstract</h3>
-    <p class="pub-abstract">Mapping a source mesh into a target domain while preserving local injectivity is an important but highly non-trivial task. Existing methods either require an already-injective starting configuration, which is often not available, or rely on sophisticated solving schemes. We propose a novel energy form, called Total Lifted Content (TLC), that is equipped with theoretical properties desirable for injectivity optimization. By lifting the simplices of the mesh into a higher dimension and measuring their contents (2D area or 3D volume) there, TLC is smooth over the entire embedding space and its global minima are always injective. The energy is simple to minimize using standard gradient-based solvers. Our method achieved 100% success rate on an extensive benchmark of embedding problems for triangular and tetrahedral meshes, on which existing methods only have varied success.</p>
-    
 
     
 
@@ -667,8 +664,7 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><h3 id="results"><strong>Results</strong></h3>
-
+    <div class="article-style">
 
 
 
@@ -702,6 +698,9 @@
 
 </figure>
 
+<h3 id="abstract"><strong>Abstract</strong></h3>
+<p>Mapping a source mesh into a target domain while preserving local injectivity is an important but highly non-trivial task. Existing methods either require an already-injective starting configuration, which is often not available, or rely on sophisticated solving schemes. We propose a novel energy form, called Total Lifted Content (TLC), that is equipped with theoretical properties desirable for injectivity optimization. By lifting the simplices of the mesh into a higher dimension and measuring their contents (2D area or 3D volume) there, TLC is smooth over the entire embedding space and its global minima are always injective. The energy is simple to minimize using standard gradient-based solvers. Our method achieved 100% success rate on an extensive benchmark of embedding problems for triangular and tetrahedral meshes, on which existing methods only have varied success.</p>
+<h3 id="results"><strong>Results</strong></h3>
 <p>This video demonstrates the process of our method on a complex example. The initial mapping has 3115 inverted triangles (colored red). Our method computes an injective mapping within 120 iterations.</p>
 
 
