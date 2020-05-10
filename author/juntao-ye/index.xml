@@ -5,12 +5,54 @@
     <link>https://duxingyi-charles.github.io/author/juntao-ye/</link>
       <atom:link href="https://duxingyi-charles.github.io/author/juntao-ye/index.xml" rel="self" type="application/rss+xml" />
     <description>Juntao Ye</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 28 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://duxingyi-charles.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Juntao Ye</title>
       <link>https://duxingyi-charles.github.io/author/juntao-ye/</link>
     </image>
+    
+    <item>
+      <title>Quad Mesh Generation via Field-Aligned Centroidal Voronoi Tessellation</title>
+      <link>https://duxingyi-charles.github.io/publication/quad-mesh-generation-via-field-aligned-centroidal-voronoi-tessellation/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://duxingyi-charles.github.io/publication/quad-mesh-generation-via-field-aligned-centroidal-voronoi-tessellation/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-1-given-an-orthogonal-directional-field-left-and-a-triangular-mesh-middle-left-our-method-repositions-mesh-vertices-to-align-with-the-field-direction-middle-right-finally-triangles-are-paired-to-obtain-a-quad-dominant-meshright&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/qfcvt-overview.png&#34; data-caption=&#34;Figure 1. Given an orthogonal directional field (left) and a triangular mesh (middle left), our method repositions mesh vertices to align with the field direction (middle right). Finally, triangles are paired to obtain a quad-dominant mesh(right).&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/qfcvt-overview.png&#34; alt=&#34;overview of algorithm&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 1. Given an orthogonal directional field (left) and a triangular mesh (middle left), our method repositions mesh vertices to align with the field direction (middle right). Finally, triangles are paired to obtain a quad-dominant mesh(right).
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Field-Aligned Isotropic Surface Remeshing</title>
@@ -38,7 +80,7 @@
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/fcvt-cylinder.png&#34; data-caption=&#34;Figure 1. Given a user-defined directional field (left), our method aligns the mesh edges with the field direction (middle left). The result is a high quality remeshing with less singular vertices (right).&#34;&gt;
 
 
-  &lt;img src=&#34;https://duxingyi-charles.github.io/img/fcvt-cylinder.png&#34; alt=&#34;flowchart of algorithm&#34;  &gt;
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/fcvt-cylinder.png&#34; alt=&#34;overview of algorithm&#34;  &gt;
 &lt;/a&gt;
 
 
