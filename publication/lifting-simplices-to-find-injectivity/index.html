@@ -689,10 +689,10 @@
 <figure id="figure-figure-1-injectively-mapping-a-complex-surface-mesh-lucy-48k-vertices-to-a-non-convex-boundary-letter-g-with-zoom-ins-on-the-left-and-mapping-a-tetrahedral-mesh-armadillo-6k-vertices-to-a-highly-deformed-target-surface-on-the-right-as-a-result-of-minimizing-our-novel-energy-these-two-examples-are-part-of-our-new-benchmark-data-set">
 
 
-  <a data-fancybox="" href="/img/TLC-fig1.png" data-caption="Figure 1. Injectively mapping a complex surface mesh (Lucy, 48K vertices) to a non-convex boundary (letter “G”, with zoom-ins), on the left, and mapping a tetrahedral mesh (Armadillo, 6K vertices) to a highly deformed target surface, on the right, as a result of minimizing our novel energy. These two examples are part of our new benchmark data set.">
+  <a data-fancybox="" href="/img/TLC/fig1.png" data-caption="Figure 1. Injectively mapping a complex surface mesh (Lucy, 48K vertices) to a non-convex boundary (letter “G”, with zoom-ins), on the left, and mapping a tetrahedral mesh (Armadillo, 6K vertices) to a highly deformed target surface, on the right, as a result of minimizing our novel energy. These two examples are part of our new benchmark data set.">
 
 
-  <img src="/img/TLC-fig1.png" alt="fig1"  >
+  <img src="/img/TLC/fig1.png" alt="fig1"  >
 </a>
 
 
@@ -706,9 +706,9 @@
 </figure>
 
 <h3 id="abstract"><strong>Abstract</strong></h3>
-<p>Mapping a source mesh into a target domain while preserving local injectivity is an important but highly non-trivial task. Existing methods either require an already-injective starting configuration, which is often not available, or rely on sophisticated solving schemes. We propose a novel energy form, called Total Lifted Content (TLC), that is equipped with theoretical properties desirable for injectivity optimization. By lifting the simplices of the mesh into a higher dimension and measuring their contents (2D area or 3D volume) there, TLC is smooth over the entire embedding space and its global minima are always injective. The energy is simple to minimize using standard gradient-based solvers. Our method achieved 100% success rate on an extensive benchmark of embedding problems for triangular and tetrahedral meshes, on which existing methods only have varied success.</p>
+<p>Mapping a source mesh into a target domain while preserving local injectivity is an important but highly non-trivial task. Existing methods either require an already-injective starting configuration, which is often not available, or rely on sophisticated solving schemes. We propose a novel energy form, called Total Lifted Content (<strong>TLC</strong>), that is equipped with theoretical properties desirable for injectivity optimization. By lifting the simplices of the mesh into a higher dimension and measuring their contents (2D area or 3D volume) there, TLC is smooth over the entire embedding space and its global minima are always injective. The energy is simple to minimize using standard gradient-based solvers. Our method achieved <em>100</em>% success rate on an extensive benchmark of embedding problems for triangular and tetrahedral meshes, on which existing methods only have varied success.</p>
 <h3 id="video"><strong>Video</strong></h3>
-<p>This video demonstrates the process of our method on a complex example. The initial mapping has 3115 inverted triangles (colored red). Our method computes an injective mapping within 120 iterations.</p>
+<p>This video demonstrates the process of <strong>TLC</strong> optimization on a complex example. The initial mapping has <em>3115</em> inverted triangles (colored red). Our method computes an injective mapping within <em>120</em> iterations.</p>
 
 
 
@@ -727,6 +727,130 @@
 <video controls >
   <source src="lucy_G.mp4" type="video/mp4">
 </video>
+<h3 id="dataset"><strong>Dataset</strong></h3>
+<p>We release the large benchmark dataset of 2D/3D meshes used to compare with previous methods. The dataset includes <em>10743</em> triangular mesh examples and <em>904</em> tetrahedral mesh examples. The dateset is divided into 3 categories, 2D parameterization, 3D parameterization and 3D deformation.</p>
+<h4 id="2d-parameterization">2D Parameterization</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-2-four-examples-in-the-2d-parameterization-category-derived-from-liu-et-al-2018-where-methods-ff-and-lbd-failed-to-find-injective-embeddings-inverted-triangles-are-colored-in-red-and-the-numbers-of-inversion-are-marked-in-red">
+
+
+  <a data-fancybox="" href="/img/TLC/2D-Param.png" data-caption="Figure 2. Four examples in the 2D parameterization category derived from [Liu et al. 2018], where methods FF and LBD failed to find injective embeddings. Inverted triangles are colored in red, and the numbers of inversion are marked in red.">
+
+
+  <img src="/img/TLC/2D-Param.png" alt="2D Parameterization"  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Figure 2. Four examples in the 2D parameterization category derived from [Liu et al. 2018], where methods FF and LBD failed to find injective embeddings. Inverted triangles are colored in red, and the numbers of inversion are marked in red.
+  </figcaption>
+
+
+</figure>
+
+<h4 id="3d-parameterization">3D Parameterization</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-3-three-examples-from-the-3d-parameterization-category-each-mapping-a-rest-tetrahedral-mesh-into-a-sphere-top-smooth-surface-middle-and-a-polycube-bottom-each-example-is-a-failure-case-for-one-of-the-three-methods-ff-lbd-and-sa-inverted-tetrahedra-are-colored-in-red-and-the-numbers-of-inversion-are-marked-in-red">
+
+
+  <a data-fancybox="" href="/img/TLC/3D-Param.png" data-caption="Figure 3. Three examples from the 3D parameterization category, each mapping a rest tetrahedral mesh into a sphere (top), smooth surface (middle), and a polycube (bottom). Each example is a failure case for one of the three methods, FF, LBD and SA. Inverted tetrahedra are colored in red, and the numbers of inversion are marked in red.">
+
+
+  <img src="/img/TLC/3D-Param.png" alt="3D Parameterization"  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Figure 3. Three examples from the 3D parameterization category, each mapping a rest tetrahedral mesh into a sphere (top), smooth surface (middle), and a polycube (bottom). Each example is a failure case for one of the three methods, FF, LBD and SA. Inverted tetrahedra are colored in red, and the numbers of inversion are marked in red.
+  </figcaption>
+
+
+</figure>
+
+<h4 id="3d-deformation">3D Deformation</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-4-three-example-in-the-3d-deformation-category-a-twisting-armadillo-where-ff-sa-and-lbd-all-failed-to-reach-injectivity-the-graph-in-the-top-right-shows-the-number-of-inverted-tetrahedra-for-each-of-the-600-frames-of-the-deformation-sequence-ellipses-indicate-the-frames-from-which-the-three-examples-were-taken">
+
+
+  <a data-fancybox="" href="/img/TLC/3D-Deform.png" data-caption="Figure 4. Three example in the 3D deformation category (a twisting armadillo) where FF, SA and LBD all failed to reach injectivity. The graph in the top-right shows the number of inverted tetrahedra for each of the 600&#43; frames of the deformation sequence (ellipses indicate the frames from which the three examples were taken).">
+
+
+  <img src="/img/TLC/3D-Deform.png" alt="3D Deformation"  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Figure 4. Three example in the 3D deformation category (a twisting armadillo) where FF, SA and LBD all failed to reach injectivity. The graph in the top-right shows the number of inverted tetrahedra for each of the 600+ frames of the deformation sequence (ellipses indicate the frames from which the three examples were taken).
+  </figcaption>
+
+
+</figure>
+
+<h4 id="dataset-organization">Dataset Organization</h4>
+<p>Each triangular mesh example contains</p>
+<ul>
+<li><code>input.obj</code>: rest mesh and initial mesh (as uv coordinates)</li>
+<li><code>handles.txt</code>: list of indices of the fixed vertices</li>
+<li><code>result.obj</code>: result of our method</li>
+</ul>
+<p>Each tetrahedral mesh example contains</p>
+<ul>
+<li><code>rest.msh</code>: rest mesh</li>
+<li><code>init.msh</code>: initial mesh</li>
+<li><code>handles.txt</code>: list of indices of the fixed vertices</li>
+<li><code>result.msh</code>: result of our method</li>
+</ul>
+<p>
+<a href="https://wustl.box.com/v/InjectiveMappingBenchmark" target="_blank" rel="noopener"><code>Download Dataset</code></a>
+(Code and dataset will be released soon. Thanks for your patience.)</p>
 </div>
 
     
