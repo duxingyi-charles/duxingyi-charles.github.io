@@ -161,10 +161,10 @@
 
 
 
-&lt;figure id=&#34;figure-figure-4-three-example-in-the-3d-deformation-category-a-twisting-armadillo-where-ff-sa-and-lbd-all-failed-to-reach-injectivity-the-graph-in-the-top-right-shows-the-number-of-inverted-tetrahedra-for-each-of-the-600-frames-of-the-deformation-sequence-ellipses-indicate-the-frames-from-which-the-three-examples-were-taken&#34;&gt;
+&lt;figure id=&#34;figure-figure-4-three-examples-in-the-3d-deformation-category-a-twisting-armadillo-where-ff-sa-and-lbd-all-failed-to-reach-injectivity-the-graph-in-the-top-right-shows-the-number-of-inverted-tetrahedra-for-each-of-the-600-frames-of-the-deformation-sequence-ellipses-indicate-the-frames-from-which-the-three-examples-were-taken&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/TLC/3D-Deform.png&#34; data-caption=&#34;Figure 4. Three example in the 3D deformation category (a twisting armadillo) where FF, SA and LBD all failed to reach injectivity. The graph in the top-right shows the number of inverted tetrahedra for each of the 600&amp;#43; frames of the deformation sequence (ellipses indicate the frames from which the three examples were taken).&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/TLC/3D-Deform.png&#34; data-caption=&#34;Figure 4. Three examples in the 3D deformation category (a twisting armadillo) where FF, SA and LBD all failed to reach injectivity. The graph in the top-right shows the number of inverted tetrahedra for each of the 600&amp;#43; frames of the deformation sequence (ellipses indicate the frames from which the three examples were taken).&#34;&gt;
 
 
   &lt;img src=&#34;https://duxingyi-charles.github.io/img/TLC/3D-Deform.png&#34; alt=&#34;3D Deformation&#34;  &gt;
@@ -174,7 +174,7 @@
   
   
   &lt;figcaption&gt;
-    Figure 4. Three example in the 3D deformation category (a twisting armadillo) where FF, SA and LBD all failed to reach injectivity. The graph in the top-right shows the number of inverted tetrahedra for each of the 600+ frames of the deformation sequence (ellipses indicate the frames from which the three examples were taken).
+    Figure 4. Three examples in the 3D deformation category (a twisting armadillo) where FF, SA and LBD all failed to reach injectivity. The graph in the top-right shows the number of inverted tetrahedra for each of the 600+ frames of the deformation sequence (ellipses indicate the frames from which the three examples were taken).
   &lt;/figcaption&gt;
 
 
@@ -189,14 +189,17 @@
 &lt;/ul&gt;
 &lt;p&gt;Each tetrahedral mesh example contains&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;rest.msh&lt;/code&gt;: rest mesh&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;init.msh&lt;/code&gt;: initial mesh&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rest.vtk&lt;/code&gt;: rest mesh&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;init.vtk&lt;/code&gt;: initial mesh&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;handles.txt&lt;/code&gt;: list of indices of the fixed vertices&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;result.msh&lt;/code&gt;: result of our method&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;result.vtk&lt;/code&gt;: result of our method&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://wustl.box.com/v/InjectiveMappingBenchmark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Download Dataset&lt;/code&gt;&lt;/a&gt;
 (Code and dataset will be released soon. Thanks for your patience.)&lt;/p&gt;
+&lt;!-- ### **Acknowledgments**
+
+This work is supported in part by NSF grant RI-1618685, NIH grant U2C CA233303-1, and Simons Math+X Investigators Award 400837. We would like to thank authors of several papers for providing code, data, and help with comparisons, and especially Hanxiao Shen, Ofir Weber, Alon Bright, Zohar Levi, and Xiao-Ming Fu. --&gt;
 </description>
     </item>
     
