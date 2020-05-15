@@ -194,9 +194,10 @@
 &lt;li&gt;&lt;code&gt;handles.txt&lt;/code&gt;: list of indices of the fixed vertices&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;result.vtk&lt;/code&gt;: result of our method&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Here is an introduction to 
+&lt;a href=&#34;https://lorensen.github.io/VTKExamples/site/VTKFileFormats/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VTK format&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;
-&lt;a href=&#34;https://wustl.box.com/v/InjectiveMappingBenchmark&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Download Dataset&lt;/code&gt;&lt;/a&gt;
-(Code and dataset will be released soon. Thanks for your patience.)&lt;/p&gt;
+&lt;a href=&#34;https://doi.org/10.5281/zenodo.3827969&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Download Dataset&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;!-- ### **Acknowledgments**
 
 This work is supported in part by NSF grant RI-1618685, NIH grant U2C CA233303-1, and Simons Math+X Investigators Award 400837. We would like to thank authors of several papers for providing code, data, and help with comparisons, and especially Hanxiao Shen, Ofir Weber, Alon Bright, Zohar Levi, and Xiao-Ming Fu. --&gt;
