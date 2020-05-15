@@ -5,12 +5,291 @@
     <link>https://duxingyi-charles.github.io/author/xingyi-du/</link>
       <atom:link href="https://duxingyi-charles.github.io/author/xingyi-du/index.xml" rel="self" type="application/rss+xml" />
     <description>Xingyi Du</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 04 May 2020 17:23:54 -0500</lastBuildDate>
     <image>
-      <url>https://duxingyi-charles.github.io/author/xingyi-du/avatar_hu541b14dd74a7d201955c07da0c1ef682_259572_270x270_fill_q90_lanczos_center.jpg</url>
+      <url>https://duxingyi-charles.github.io/images/icon_huf6cc63f61214c7e23fc80e3f93061f20_16799_512x512_fill_lanczos_center_2.png</url>
       <title>Xingyi Du</title>
       <link>https://duxingyi-charles.github.io/author/xingyi-du/</link>
     </image>
+    
+    <item>
+      <title>Lifting Simplices to Find Injectivity</title>
+      <link>https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/</link>
+      <pubDate>Mon, 04 May 2020 17:23:54 -0500</pubDate>
+      <guid>https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-1-injectively-mapping-a-complex-surface-mesh-lucy-48k-vertices-to-a-non-convex-boundary-letter-g-with-zoom-ins-on-the-left-and-mapping-a-tetrahedral-mesh-armadillo-6k-vertices-to-a-highly-deformed-target-surface-on-the-right-as-a-result-of-minimizing-our-novel-energy-these-two-examples-are-part-of-our-new-benchmark-data-set&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/TLC/fig1.png&#34; data-caption=&#34;Figure 1. Injectively mapping a complex surface mesh (Lucy, 48K vertices) to a non-convex boundary (letter “G”, with zoom-ins), on the left, and mapping a tetrahedral mesh (Armadillo, 6K vertices) to a highly deformed target surface, on the right, as a result of minimizing our novel energy. These two examples are part of our new benchmark data set.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/TLC/fig1.png&#34; alt=&#34;fig1&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 1. Injectively mapping a complex surface mesh (Lucy, 48K vertices) to a non-convex boundary (letter “G”, with zoom-ins), on the left, and mapping a tetrahedral mesh (Armadillo, 6K vertices) to a highly deformed target surface, on the right, as a result of minimizing our novel energy. These two examples are part of our new benchmark data set.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;abstract&#34;&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Mapping a source mesh into a target domain while preserving local injectivity is an important but highly non-trivial task. Existing methods either require an already-injective starting configuration, which is often not available, or rely on sophisticated solving schemes. We propose a novel energy form, called Total Lifted Content (&lt;strong&gt;TLC&lt;/strong&gt;), that is equipped with theoretical properties desirable for injectivity optimization. By lifting the simplices of the mesh into a higher dimension and measuring their contents (2D area or 3D volume) there, &lt;strong&gt;TLC&lt;/strong&gt; is smooth over the entire embedding space and its global minima are always injective. The energy is simple to minimize using standard gradient-based solvers. Our method achieved &lt;em&gt;100&lt;/em&gt;% success rate on an extensive benchmark of embedding problems for triangular and tetrahedral meshes, on which existing methods only have varied success.&lt;/p&gt;
+&lt;h3 id=&#34;video&#34;&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;This video demonstrates the process of &lt;strong&gt;TLC&lt;/strong&gt; optimization on a complex example. The initial mapping has &lt;em&gt;3115&lt;/em&gt; inverted triangles (colored red). Our method computes an injective mapping within &lt;em&gt;64&lt;/em&gt; iterations.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;lucy_G.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;h3 id=&#34;dataset&#34;&gt;&lt;strong&gt;Dataset&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We present the large benchmark dataset of 2D/3D meshes used to compare with previous methods. The dataset includes &lt;em&gt;10743&lt;/em&gt; triangular mesh examples and &lt;em&gt;904&lt;/em&gt; tetrahedral mesh examples. The dataset is divided into 3 categories, 2D parameterization, 3D parameterization and 3D deformation.&lt;/p&gt;
+&lt;h4 id=&#34;2d-parameterization&#34;&gt;2D Parameterization&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-2-four-examples-in-the-2d-parameterization-category-derived-from-liu-et-al-2018-where-methods-ff-and-lbd-failed-to-find-injective-embeddings-inverted-triangles-are-colored-in-red-and-the-numbers-of-inversion-are-marked-in-red&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/TLC/2D-Param.png&#34; data-caption=&#34;Figure 2. Four examples in the 2D parameterization category derived from [Liu et al. 2018], where methods FF and LBD failed to find injective embeddings. Inverted triangles are colored in red, and the numbers of inversion are marked in red.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/TLC/2D-Param.png&#34; alt=&#34;2D Parameterization&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 2. Four examples in the 2D parameterization category derived from [Liu et al. 2018], where methods FF and LBD failed to find injective embeddings. Inverted triangles are colored in red, and the numbers of inversion are marked in red.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;3d-parameterization&#34;&gt;3D Parameterization&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-3-three-examples-from-the-3d-parameterization-category-each-mapping-a-rest-tetrahedral-mesh-into-a-sphere-top-smooth-surface-middle-and-a-polycube-bottom-each-example-is-a-failure-case-for-one-of-the-three-methods-ff-lbd-and-sa-inverted-tetrahedra-are-colored-in-red-and-the-numbers-of-inversion-are-marked-in-red&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/TLC/3D-Param.png&#34; data-caption=&#34;Figure 3. Three examples from the 3D parameterization category, each mapping a rest tetrahedral mesh into a sphere (top), smooth surface (middle), and a polycube (bottom). Each example is a failure case for one of the three methods, FF, LBD and SA. Inverted tetrahedra are colored in red, and the numbers of inversion are marked in red.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/TLC/3D-Param.png&#34; alt=&#34;3D Parameterization&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 3. Three examples from the 3D parameterization category, each mapping a rest tetrahedral mesh into a sphere (top), smooth surface (middle), and a polycube (bottom). Each example is a failure case for one of the three methods, FF, LBD and SA. Inverted tetrahedra are colored in red, and the numbers of inversion are marked in red.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;3d-deformation&#34;&gt;3D Deformation&lt;/h4&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-4-three-examples-in-the-3d-deformation-category-a-twisting-armadillo-where-ff-sa-and-lbd-all-failed-to-reach-injectivity-the-graph-in-the-top-right-shows-the-number-of-inverted-tetrahedra-for-each-of-the-600-frames-of-the-deformation-sequence-ellipses-indicate-the-frames-from-which-the-three-examples-were-taken&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/TLC/3D-Deform.png&#34; data-caption=&#34;Figure 4. Three examples in the 3D deformation category (a twisting armadillo) where FF, SA and LBD all failed to reach injectivity. The graph in the top-right shows the number of inverted tetrahedra for each of the 600&amp;#43; frames of the deformation sequence (ellipses indicate the frames from which the three examples were taken).&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/TLC/3D-Deform.png&#34; alt=&#34;3D Deformation&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 4. Three examples in the 3D deformation category (a twisting armadillo) where FF, SA and LBD all failed to reach injectivity. The graph in the top-right shows the number of inverted tetrahedra for each of the 600+ frames of the deformation sequence (ellipses indicate the frames from which the three examples were taken).
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;dataset-organization&#34;&gt;Dataset Organization&lt;/h4&gt;
+&lt;p&gt;Each triangular mesh example contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;input.obj&lt;/code&gt;: rest mesh and initial mesh (as uv coordinates)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;handles.txt&lt;/code&gt;: list of indices of the fixed vertices&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;result.obj&lt;/code&gt;: result of our method&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each tetrahedral mesh example contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;rest.vtk&lt;/code&gt;: rest mesh&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;init.vtk&lt;/code&gt;: initial mesh&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;handles.txt&lt;/code&gt;: list of indices of the fixed vertices&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;result.vtk&lt;/code&gt;: result of our method&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here is an introduction to 
+&lt;a href=&#34;https://lorensen.github.io/VTKExamples/site/VTKFileFormats/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VTK format&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- [`Download Dataset`](https://doi.org/10.5281/zenodo.3827969) --&gt;
+&lt;!-- ### **Acknowledgments**
+
+This work is supported in part by NSF grant RI-1618685, NIH grant U2C CA233303-1, and Simons Math+X Investigators Award 400837. We would like to thank authors of several papers for providing code, data, and help with comparisons, and especially Hanxiao Shen, Ofir Weber, Alon Bright, Zohar Levi, and Xiao-Ming Fu. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quad Mesh Generation via Field-Aligned Centroidal Voronoi Tessellation</title>
+      <link>https://duxingyi-charles.github.io/publication/quad-mesh-generation-via-field-aligned-centroidal-voronoi-tessellation/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://duxingyi-charles.github.io/publication/quad-mesh-generation-via-field-aligned-centroidal-voronoi-tessellation/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-1-given-an-orthogonal-directional-field-left-and-a-triangular-mesh-middle-left-our-method-repositions-mesh-vertices-to-align-with-the-field-direction-middle-right-finally-triangles-are-paired-to-obtain-a-quad-dominant-meshright&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/qfcvt-overview.png&#34; data-caption=&#34;Figure 1. Given an orthogonal directional field (left) and a triangular mesh (middle left), our method repositions mesh vertices to align with the field direction (middle right). Finally, triangles are paired to obtain a quad-dominant mesh(right).&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/qfcvt-overview.png&#34; alt=&#34;overview of algorithm&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 1. Given an orthogonal directional field (left) and a triangular mesh (middle left), our method repositions mesh vertices to align with the field direction (middle right). Finally, triangles are paired to obtain a quad-dominant mesh(right).
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;abstract&#34;&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;In order to generate high quality quad mesh, a novel method based on field-aligned centroidal Voronoi tessellation (CVT) is proposed. Target mesh vertices are first uniformly distributed on input mesh surface via CVT optimization. Then, field-aligned CVT is applied to align mesh edges to the underlying direction field. Next, an initial quad mesh is extracted by matching mesh edges and field directions. Meanwhile, singular vertices are detected and eliminated based on topology optimization. Finally, the output quad-dominant mesh is generated by merging adjacent triangle pairs. Experiments show that our method has the ability to generate field-aligned high quality quad-dominant mesh.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Field-Aligned Isotropic Surface Remeshing</title>
+      <link>https://duxingyi-charles.github.io/publication/field-aligned-isotropic-surface-remeshing/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://duxingyi-charles.github.io/publication/field-aligned-isotropic-surface-remeshing/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-1-given-a-user-defined-directional-field-left-our-method-aligns-mesh-edges-with-the-field-direction-middle-left-the-result-is-a-high-quality-remeshing-with-less-singular-vertices-right&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/fcvt-cylinder.png&#34; data-caption=&#34;Figure 1. Given a user-defined directional field (left), our method aligns mesh edges with the field direction (middle left). The result is a high quality remeshing with less singular vertices (right).&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/fcvt-cylinder.png&#34; alt=&#34;overview of algorithm&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 1. Given a user-defined directional field (left), our method aligns mesh edges with the field direction (middle left). The result is a high quality remeshing with less singular vertices (right).
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;abstract&#34;&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We present a novel isotropic surface remeshing algorithm that automatically aligns the mesh edges with an underlying directional field. The alignment is achieved by minimizing an energy function that combines both centroidal Voronoi tessellation and the penalty enforced by a six-way rotational symmetry (6-RoSy) field. The CVT term ensures the uniform distribution of thevertices and the high remeshing quality, while the field constraint enforces the directional alignment of the edges. Experimental results show that the proposed approach has the advantages of both isotropic remeshing and field-aligned remeshing. We demonstrate that our algorithm is superior to the representative state-of-the-art approaches in various aspects.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
