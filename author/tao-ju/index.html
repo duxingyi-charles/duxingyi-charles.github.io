@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="PhD Candidate of Computer Science">
+  <meta name="description" content="Xingyi (Charles) Du&#39;s personal website">
 
   
   <link rel="alternate" hreflang="en-us" href="https://duxingyi-charles.github.io/author/tao-ju/">
@@ -205,6 +205,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168058291-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-168058291-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -229,16 +267,18 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@CharlesDu18">
+  <meta property="twitter:creator" content="@CharlesDu18">
   
   <meta property="og:site_name" content="Charles Du&#39;s Homepage">
   <meta property="og:url" content="https://duxingyi-charles.github.io/author/tao-ju/">
   <meta property="og:title" content="Tao Ju | Charles Du&#39;s Homepage">
-  <meta property="og:description" content="PhD Candidate of Computer Science"><meta property="og:image" content="https://duxingyi-charles.github.io/images/icon_huf6cc63f61214c7e23fc80e3f93061f20_16799_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://duxingyi-charles.github.io/images/icon_huf6cc63f61214c7e23fc80e3f93061f20_16799_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Xingyi (Charles) Du&#39;s personal website"><meta property="og:image" content="https://duxingyi-charles.github.io/img/avatar.jpg">
+  <meta property="twitter:image" content="https://duxingyi-charles.github.io/img/avatar.jpg"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2020-05-04T17:23:54-05:00">
   
