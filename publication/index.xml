@@ -13,6 +13,73 @@
     </image>
     
     <item>
+      <title>Boundary-Sampled Halfspaces: A New Representation for Constructive Solid Modeling</title>
+      <link>https://duxingyi-charles.github.io/publication/boundary-sampled-halfspaces/</link>
+      <pubDate>Fri, 21 May 2021 17:23:54 -0500</pubDate>
+      <guid>https://duxingyi-charles.github.io/publication/boundary-sampled-halfspaces/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-1-a-segmented-shape-a-is-converted-into-our-representation-b-which-consists-of-halfspaces-associated-with-sparse-samples-colored-spheres-each-halfspace-is-either-a-simple-primitive-eg-plane-sphere-etc-or-a-free-form-implicit-surface-one-is-shown-in-transparency-the-representation-can-be-easily-edited-by-modifying-the-halfspaces-andor-their-samples-c&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/BSH/fig1.png&#34; data-caption=&#34;Figure 1. A segmented shape (a) is converted into our representation (b), which consists of halfspaces associated with sparse samples (colored spheres). Each halfspace is either a simple primitive (e.g., plane, sphere, etc.) or a free-form implicit surface (one is shown in transparency). The representation can be easily edited by modifying the halfspaces and/or their samples (c).&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/BSH/fig1.png&#34; alt=&#34;fig1&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 1. A segmented shape (a) is converted into our representation (b), which consists of halfspaces associated with sparse samples (colored spheres). Each halfspace is either a simple primitive (e.g., plane, sphere, etc.) or a free-form implicit surface (one is shown in transparency). The representation can be easily edited by modifying the halfspaces and/or their samples (c).
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;abstract&#34;&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We present a novel representation of solid models for shape design. Like Constructive Solid Geometry (CSG), the solid shape is constructed from a set of halfspaces without the need for an explicit boundary structure. Instead of using Boolean expressions as in CSG, the shape is defined by sparsely placed samples on the boundary of each halfspace. This representation, called Boundary-Sampled Halfspaces (BSH), affords greater agility and expressiveness than CSG while simplifying the reverse engineering process. We discuss theoretical properties of the representation and present practical algorithms for boundary extraction and conversion from other representations. Our algorithms are demonstrated on both 2D and 3D examples.&lt;/p&gt;
+&lt;h3 id=&#34;video&#34;&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;We demonstrate the modeling process of various examples using a program based on boundary-sampled halfspaces.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;!-- ### **Acknowledgments**
+
+This work is supported in part by NSF grant RI-1618685, NIH grant U2C CA233303-1, and Simons Math+X Investigators Award 400837. We would like to thank authors of several papers for providing code, data, and help with comparisons, and especially Hanxiao Shen, Ofir Weber, Alon Bright, Zohar Levi, and Xiao-Ming Fu. --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Lifting Simplices to Find Injectivity</title>
       <link>https://duxingyi-charles.github.io/publication/lifting-simplices-to-find-injectivity/</link>
       <pubDate>Mon, 04 May 2020 17:23:54 -0500</pubDate>
