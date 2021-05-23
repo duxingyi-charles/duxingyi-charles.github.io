@@ -281,7 +281,7 @@
     
       <meta property="article:published_time" content="2021-05-21T17:23:54-05:00">
     
-    <meta property="article:modified_time" content="2021-05-22T16:07:42-05:00">
+    <meta property="article:modified_time" content="2021-05-23T17:03:47-05:00">
   
 
   
@@ -312,7 +312,7 @@
   ],
   
   "datePublished": "2021-05-21T17:23:54-05:00",
-  "dateModified": "2021-05-22T16:07:42-05:00",
+  "dateModified": "2021-05-23T17:03:47-05:00",
   
   "author": {
     "@type": "Person",
@@ -746,7 +746,7 @@
   <a data-fancybox="" href="/img/BSH/fig1.png" data-caption="Figure 1. A segmented shape (a) is converted into our representation (b), which consists of halfspaces associated with sparse samples (colored spheres). Each halfspace is either a simple primitive (e.g., plane, sphere, etc.) or a free-form implicit surface (one is shown in transparency). The representation can be easily edited by modifying the halfspaces and/or their samples (c).">
 
 
-  <img src="/img/BSH/fig1.png" alt="fig1"  >
+  <img src="/img/BSH/fig1.png" alt="featured"  >
 </a>
 
 
@@ -762,7 +762,7 @@
 <h3 id="abstract"><strong>Abstract</strong></h3>
 <p>We present a novel representation of solid models for shape design. Like Constructive Solid Geometry (CSG), the solid shape is constructed from a set of halfspaces without the need for an explicit boundary structure. Instead of using Boolean expressions as in CSG, the shape is defined by sparsely placed samples on the boundary of each halfspace. This representation, called Boundary-Sampled Halfspaces (BSH), affords greater agility and expressiveness than CSG while simplifying the reverse engineering process. We discuss theoretical properties of the representation and present practical algorithms for boundary extraction and conversion from other representations. Our algorithms are demonstrated on both 2D and 3D examples.</p>
 <h3 id="video"><strong>Video</strong></h3>
-<p>We demonstrate the modeling process of various examples using a program based on boundary-sampled halfspaces.</p>
+<p>We demonstrate the modeling process of various examples using Boundary-Sampled Halfspaces.</p>
 
 
 
@@ -781,6 +781,179 @@
 <video controls >
   <source src="demo.mp4" type="video/mp4">
 </video>
+<h2 id="2d-shape-design"><strong>2D Shape Design</strong></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-2-several-2d-shapes-modeled-by-bsh-halfspaces-for-the-last-two-shapes-are-not-shown-due-to-their-complexity">
+
+
+  <a data-fancybox="" href="/img/BSH/fig-gallery-2D.png" data-caption="Figure 2. Several 2D shapes modeled by BSH. Halfspaces for the last two shapes are not shown due to their complexity.">
+
+
+  <img src="/img/BSH/fig-gallery-2D.png" alt="fig-gallery-2D"  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Figure 2. Several 2D shapes modeled by BSH. Halfspaces for the last two shapes are not shown due to their complexity.
+  </figcaption>
+
+
+</figure>
+
+<h2 id="3d-shape-design"><strong>3D Shape Design</strong></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-3-various-bsh-shapes-created-from-one-torus-and-several-spheres-by-choosing-which-segment-of-the-torus-has-a-sample-different-segments-can-be-kept-or-deleted-while-the-shape-remains-a-solid">
+
+
+  <a data-fancybox="" href="/img/BSH/fig-beads.png" data-caption="Figure 3. Various BSH shapes created from one torus and several spheres. By choosing which segment of the torus has a sample, different segments can be kept or deleted while the shape remains a solid.">
+
+
+  <img src="/img/BSH/fig-beads.png" alt="fig-beads"  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Figure 3. Various BSH shapes created from one torus and several spheres. By choosing which segment of the torus has a sample, different segments can be kept or deleted while the shape remains a solid.
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-4-shape-modeled-by-bsh-that-cannot-be-represented-by-csg-without-additional-halfspaces-for-the-first-two-shapes-input-halfspaces-are-on-the-left-and-the-final-shapes-are-on-the-right-the-last-shape-heart-is-shown-in-two-views-and-the-second-view-shows-a-halfspace-represented-as-a-vipss-implicit-surface-interpolating-a-sparse-set-of-control-points-red-spheres">
+
+
+  <a data-fancybox="" href="/img/BSH/fig-gallery-3D.png" data-caption="Figure 4. Shape modeled by BSH that cannot be represented by CSG without additional halfspaces. For the first two shapes, input halfspaces are on the left and the final shapes are on the right. The last shape (“Heart”) is shown in two views, and the second view shows a halfspace represented as a VIPSS implicit surface interpolating a sparse set of control points (red spheres).">
+
+
+  <img src="/img/BSH/fig-gallery-3D.png" alt="fig-gallery-3D"  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Figure 4. Shape modeled by BSH that cannot be represented by CSG without additional halfspaces. For the first two shapes, input halfspaces are on the left and the final shapes are on the right. The last shape (“Heart”) is shown in two views, and the second view shows a halfspace represented as a VIPSS implicit surface interpolating a sparse set of control points (red spheres).
+  </figcaption>
+
+
+</figure>
+
+<h2 id="converted-from-other-representations"><strong>Converted from other representations</strong></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-5-free-form-bsh-shapes-elk-flower-boat-and-chair-converted-from-meshes-and-undergone-editing-of-the-halfspaces-andor-their-samples-top-each-row-shows-the-input-segmented-mesh-the-converted-bsh-and-result-after-editing-selected-halfspaces-before-and-after-editing-are-shown-with-transparency-bottom-each-row-shows-the-converted-bsh-and-two-editing-results">
+
+
+  <a data-fancybox="" href="/img/BSH/fig-gallery-reverse.png" data-caption="Figure 5. Free-form BSH shapes (Elk, Flower, Boat, and Chair) converted from meshes and undergone editing of the halfspaces and/or their samples. Top: each row shows the input segmented mesh, the converted BSH, and result after editing. Selected halfspaces before and after editing are shown with transparency. Bottom: each row shows the converted BSH and two editing results.">
+
+
+  <img src="/img/BSH/fig-gallery-reverse.png" alt="fig-gallery-reverse"  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Figure 5. Free-form BSH shapes (Elk, Flower, Boat, and Chair) converted from meshes and undergone editing of the halfspaces and/or their samples. Top: each row shows the input segmented mesh, the converted BSH, and result after editing. Selected halfspaces before and after editing are shown with transparency. Bottom: each row shows the converted BSH and two editing results.
+  </figcaption>
+
+
+</figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-6-a-cad-mesh-segmented-and-fitted-by-primitives-a-showing-two-views-the-converted-bsh-shape-b-showing-two-views-and-two-edited-shapes-with-altered-structure-eg-fewer-rings-and-a-missing-shelf-c-and-modified-primitive-geometry-d">
+
+
+  <a data-fancybox="" href="/img/BSH/fig-cad.png" data-caption="Figure 6. A CAD mesh segmented and fitted by primitives (a; showing two views), the converted BSH shape (b; showing two views), and two edited shapes with altered structure (e.g., fewer rings and a missing shelf) (c) and modified primitive geometry (d).">
+
+
+  <img src="/img/BSH/fig-cad.png" alt="fig-cad"  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Figure 6. A CAD mesh segmented and fitted by primitives (a; showing two views), the converted BSH shape (b; showing two views), and two edited shapes with altered structure (e.g., fewer rings and a missing shelf) (c) and modified primitive geometry (d).
+  </figcaption>
+
+
+</figure>
+
 <!-- ### **Acknowledgments**
 
 This work is supported in part by NSF grant RI-1618685, NIH grant U2C CA233303-1, and Simons Math+X Investigators Award 400837. We would like to thank authors of several papers for providing code, data, and help with comparisons, and especially Hanxiao Shen, Ofir Weber, Alon Bright, Zohar Levi, and Xiao-Ming Fu. -->

@@ -38,7 +38,7 @@
   &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/BSH/fig1.png&#34; data-caption=&#34;Figure 1. A segmented shape (a) is converted into our representation (b), which consists of halfspaces associated with sparse samples (colored spheres). Each halfspace is either a simple primitive (e.g., plane, sphere, etc.) or a free-form implicit surface (one is shown in transparency). The representation can be easily edited by modifying the halfspaces and/or their samples (c).&#34;&gt;
 
 
-  &lt;img src=&#34;https://duxingyi-charles.github.io/img/BSH/fig1.png&#34; alt=&#34;fig1&#34;  &gt;
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/BSH/fig1.png&#34; alt=&#34;featured&#34;  &gt;
 &lt;/a&gt;
 
 
@@ -54,7 +54,7 @@
 &lt;h3 id=&#34;abstract&#34;&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;We present a novel representation of solid models for shape design. Like Constructive Solid Geometry (CSG), the solid shape is constructed from a set of halfspaces without the need for an explicit boundary structure. Instead of using Boolean expressions as in CSG, the shape is defined by sparsely placed samples on the boundary of each halfspace. This representation, called Boundary-Sampled Halfspaces (BSH), affords greater agility and expressiveness than CSG while simplifying the reverse engineering process. We discuss theoretical properties of the representation and present practical algorithms for boundary extraction and conversion from other representations. Our algorithms are demonstrated on both 2D and 3D examples.&lt;/p&gt;
 &lt;h3 id=&#34;video&#34;&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;We demonstrate the modeling process of various examples using a program based on boundary-sampled halfspaces.&lt;/p&gt;
+&lt;p&gt;We demonstrate the modeling process of various examples using Boundary-Sampled Halfspaces.&lt;/p&gt;
 
 
 
@@ -73,6 +73,179 @@
 &lt;video controls &gt;
   &lt;source src=&#34;demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
+&lt;h2 id=&#34;2d-shape-design&#34;&gt;&lt;strong&gt;2D Shape Design&lt;/strong&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-2-several-2d-shapes-modeled-by-bsh-halfspaces-for-the-last-two-shapes-are-not-shown-due-to-their-complexity&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/BSH/fig-gallery-2D.png&#34; data-caption=&#34;Figure 2. Several 2D shapes modeled by BSH. Halfspaces for the last two shapes are not shown due to their complexity.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/BSH/fig-gallery-2D.png&#34; alt=&#34;fig-gallery-2D&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 2. Several 2D shapes modeled by BSH. Halfspaces for the last two shapes are not shown due to their complexity.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;3d-shape-design&#34;&gt;&lt;strong&gt;3D Shape Design&lt;/strong&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-3-various-bsh-shapes-created-from-one-torus-and-several-spheres-by-choosing-which-segment-of-the-torus-has-a-sample-different-segments-can-be-kept-or-deleted-while-the-shape-remains-a-solid&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/BSH/fig-beads.png&#34; data-caption=&#34;Figure 3. Various BSH shapes created from one torus and several spheres. By choosing which segment of the torus has a sample, different segments can be kept or deleted while the shape remains a solid.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/BSH/fig-beads.png&#34; alt=&#34;fig-beads&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 3. Various BSH shapes created from one torus and several spheres. By choosing which segment of the torus has a sample, different segments can be kept or deleted while the shape remains a solid.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-4-shape-modeled-by-bsh-that-cannot-be-represented-by-csg-without-additional-halfspaces-for-the-first-two-shapes-input-halfspaces-are-on-the-left-and-the-final-shapes-are-on-the-right-the-last-shape-heart-is-shown-in-two-views-and-the-second-view-shows-a-halfspace-represented-as-a-vipss-implicit-surface-interpolating-a-sparse-set-of-control-points-red-spheres&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/BSH/fig-gallery-3D.png&#34; data-caption=&#34;Figure 4. Shape modeled by BSH that cannot be represented by CSG without additional halfspaces. For the first two shapes, input halfspaces are on the left and the final shapes are on the right. The last shape (“Heart”) is shown in two views, and the second view shows a halfspace represented as a VIPSS implicit surface interpolating a sparse set of control points (red spheres).&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/BSH/fig-gallery-3D.png&#34; alt=&#34;fig-gallery-3D&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 4. Shape modeled by BSH that cannot be represented by CSG without additional halfspaces. For the first two shapes, input halfspaces are on the left and the final shapes are on the right. The last shape (“Heart”) is shown in two views, and the second view shows a halfspace represented as a VIPSS implicit surface interpolating a sparse set of control points (red spheres).
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;converted-from-other-representations&#34;&gt;&lt;strong&gt;Converted from other representations&lt;/strong&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-5-free-form-bsh-shapes-elk-flower-boat-and-chair-converted-from-meshes-and-undergone-editing-of-the-halfspaces-andor-their-samples-top-each-row-shows-the-input-segmented-mesh-the-converted-bsh-and-result-after-editing-selected-halfspaces-before-and-after-editing-are-shown-with-transparency-bottom-each-row-shows-the-converted-bsh-and-two-editing-results&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/BSH/fig-gallery-reverse.png&#34; data-caption=&#34;Figure 5. Free-form BSH shapes (Elk, Flower, Boat, and Chair) converted from meshes and undergone editing of the halfspaces and/or their samples. Top: each row shows the input segmented mesh, the converted BSH, and result after editing. Selected halfspaces before and after editing are shown with transparency. Bottom: each row shows the converted BSH and two editing results.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/BSH/fig-gallery-reverse.png&#34; alt=&#34;fig-gallery-reverse&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 5. Free-form BSH shapes (Elk, Flower, Boat, and Chair) converted from meshes and undergone editing of the halfspaces and/or their samples. Top: each row shows the input segmented mesh, the converted BSH, and result after editing. Selected halfspaces before and after editing are shown with transparency. Bottom: each row shows the converted BSH and two editing results.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-6-a-cad-mesh-segmented-and-fitted-by-primitives-a-showing-two-views-the-converted-bsh-shape-b-showing-two-views-and-two-edited-shapes-with-altered-structure-eg-fewer-rings-and-a-missing-shelf-c-and-modified-primitive-geometry-d&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/BSH/fig-cad.png&#34; data-caption=&#34;Figure 6. A CAD mesh segmented and fitted by primitives (a; showing two views), the converted BSH shape (b; showing two views), and two edited shapes with altered structure (e.g., fewer rings and a missing shelf) (c) and modified primitive geometry (d).&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/BSH/fig-cad.png&#34; alt=&#34;fig-cad&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 6. A CAD mesh segmented and fitted by primitives (a; showing two views), the converted BSH shape (b; showing two views), and two edited shapes with altered structure (e.g., fewer rings and a missing shelf) (c) and modified primitive geometry (d).
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 &lt;!-- ### **Acknowledgments**
 
 This work is supported in part by NSF grant RI-1618685, NIH grant U2C CA233303-1, and Simons Math+X Investigators Award 400837. We would like to thank authors of several papers for providing code, data, and help with comparisons, and especially Hanxiao Shen, Ofir Weber, Alon Bright, Zohar Levi, and Xiao-Ming Fu. --&gt;
