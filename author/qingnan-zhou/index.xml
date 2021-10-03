@@ -5,12 +5,179 @@
     <link>https://duxingyi-charles.github.io/author/qingnan-zhou/</link>
       <atom:link href="https://duxingyi-charles.github.io/author/qingnan-zhou/index.xml" rel="self" type="application/rss+xml" />
     <description>Qingnan Zhou</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 21 May 2021 17:23:54 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sat, 18 Sep 2021 17:23:54 -0500</lastBuildDate>
     <image>
       <url>https://duxingyi-charles.github.io/img/avatar.jpg</url>
       <title>Qingnan Zhou</title>
       <link>https://duxingyi-charles.github.io/author/qingnan-zhou/</link>
     </image>
+    
+    <item>
+      <title>Optimizing Global Injectivity for Constrained Parameterization</title>
+      <link>https://duxingyi-charles.github.io/publication/optimizing-global-injectivity-for-constrained-parameterization/</link>
+      <pubDate>Sat, 18 Sep 2021 17:23:54 -0500</pubDate>
+      <guid>https://duxingyi-charles.github.io/publication/optimizing-global-injectivity-for-constrained-parameterization/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-1-given-a-non-injective-initial-parameterization-of-a-surface-mesh-left-with-inverted-triangles-red-boundary-intersections-orange-dots-and-overwound-vertices-magenta-dots-our-method-recovers-a-globally-injective-map-right-while-keeping-the-constraints-blue-points-in-place-the-inserts-zoom-in-on-one-region-in-the-initial-map-with-many-boundary-intersections-and-inverted-triangles-green-box-and-another-region-with-an-overwound-vertex-cyan-box&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/SEA/fig1.jpeg&#34; data-caption=&#34;Figure 1. Given a non-injective initial parameterization of a surface mesh (left) with inverted triangles (red), boundary intersections (orange dots), and overwound vertices (magenta dots), our method recovers a globally injective map (right) while keeping the constraints (blue points) in place. The inserts zoom in on one region in the initial map with many boundary intersections and inverted triangles (green box) and another region with an overwound vertex (cyan box).&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/SEA/fig1.jpeg&#34; alt=&#34;featured&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 1. Given a non-injective initial parameterization of a surface mesh (left) with inverted triangles (red), boundary intersections (orange dots), and overwound vertices (magenta dots), our method recovers a globally injective map (right) while keeping the constraints (blue points) in place. The inserts zoom in on one region in the initial map with many boundary intersections and inverted triangles (green box) and another region with an overwound vertex (cyan box).
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;abstract&#34;&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Injective parameterizations of triangulated meshes are critical across applications but remain challenging to compute. Existing algorithms to find injectivity either require initialization from an injective starting state, which is currently only possible without positional constraints, or else can only prevent triangle inversion, which is insufficient to ensure injectivity. Here we present, to our knowledge, the first algorithm for recovering a globally injective parameterization from an arbitrary non-injective initial mesh subject to stationary constraints. These initial meshes can be inverted, wound about interior vertices and/or overlapping. Our algorithm in turn enables globally injective mapping for meshes with arbitrary positional constraints. Our key contribution is a new energy, called smooth excess area (SEA), that measures non-injectivity in a map. This energy is well-defined across both injective and non-injective maps and is smooth almost everywhere, making it readily minimizable using standard gradient-based solvers starting from a non-injective initial state. Importantly, we show that maps minimizing SEA are guaranteed to be locally injective and almost globally injective, in the sense that the overlapping area can be made arbitrarily small. Analyzing SEA’s behavior over a new benchmark set designed to test injective mapping, we find that optimizing SEA successfully recovers globally injective maps for 85% of the benchmark and obtains locally injective maps for 90%. In contrast, state-of-the-art methods for removing triangle inversion obtain locally injective maps for less than 6% of the benchmark, and achieve global injectivity (largely by chance as prior methods are not designed to recover it) on less than 4%.&lt;/p&gt;
+&lt;h2 id=&#34;video&#34;&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;fast-forward&#34;&gt;&lt;strong&gt;Fast Forward&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/kJWOwzJw5_c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;optimization-process&#34;&gt;&lt;strong&gt;Optimization Process&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;The process of optimizing SEA (smooth excess area) on the examples presented in the paper.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/JXtlrBec4Rs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;code-and-dataset&#34;&gt;&lt;strong&gt;Code and Dataset&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;We create a benchmark of 1791 examples for evaluating free-boundary injective mapping with positional constraints.&lt;/p&gt;
+&lt;p&gt;Code and the benchmark dataset will be released soon.&lt;/p&gt;
+&lt;h2 id=&#34;figures&#34;&gt;&lt;strong&gt;Figures&lt;/strong&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-2-three-successful-examples-from-the-benchmark-initial-maps-first-column-maps-produced-by-our-method-second-column-which-are-all-globally-injective-and-maps-produced-by-lbd-third-column-and-sa-last-column-none-of-which-are-locally-or-globally-injective&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/SEA/fig-success.png&#34; data-caption=&#34;Figure 2. Three successful examples from the benchmark: initial maps (first column), maps produced by our method (second column), which are all globally injective, and maps produced by LBD (third column) and SA (last column), none of which are locally or globally injective.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/SEA/fig-success.png&#34; alt=&#34;fig-success&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 2. Three successful examples from the benchmark: initial maps (first column), maps produced by our method (second column), which are all globally injective, and maps produced by LBD (third column) and SA (last column), none of which are locally or globally injective.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-3-from-left-to-right-input-meshes-with-one-or-two-boundaries-non-injective-initial-maps-globally-injective-maps-produced-by-our-method-sea-and-results-of-lbd-and-sa-both-lbd-and-sa-have-removed-most-or-all-inverted-triangles-but-the-results-are-neither-locally-or-globally-injective-due-to-overwound-vertices-and-boundary-intersections&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/SEA/fig-toys.png&#34; data-caption=&#34;Figure 3. From left to right: input meshes (with one or two boundaries), non-injective initial maps, globally injective maps produced by our method (SEA), and results of LBD and SA. Both LBD and SA have removed most or all inverted triangles, but the results are neither locally or globally injective due to overwound vertices and boundary intersections.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/SEA/fig-toys.png&#34; alt=&#34;fig-toys&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 3. From left to right: input meshes (with one or two boundaries), non-injective initial maps, globally injective maps produced by our method (SEA), and results of LBD and SA. Both LBD and SA have removed most or all inverted triangles, but the results are neither locally or globally injective due to overwound vertices and boundary intersections.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-4-two-initial-maps-with-overwound-vertices-top-and-the-injective-maps-produced-by-our-method-bottom&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/SEA/fig-overwound-1-rings.png&#34; data-caption=&#34;Figure 4. Two initial maps with overwound vertices (top) and the injective maps produced by our method (bottom).&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/SEA/fig-overwound-1-rings.png&#34; alt=&#34;fig-overwound-1-rings&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 4. Two initial maps with overwound vertices (top) and the injective maps produced by our method (bottom).
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;!-- ### **Acknowledgments**
+
+This work is supported in part by NSF grant RI-1618685, NIH grant U2C CA233303-1, and Simons Math+X Investigators Award 400837. We would like to thank authors of several papers for providing code, data, and help with comparisons, and especially Hanxiao Shen, Ofir Weber, Alon Bright, Zohar Levi, and Xiao-Ming Fu. --&gt;
+</description>
+    </item>
     
     <item>
       <title>Boundary-Sampled Halfspaces: A New Representation for Constructive Solid Modeling</title>
