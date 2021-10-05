@@ -57,7 +57,7 @@
 &lt;h3 id=&#34;fast-forward&#34;&gt;&lt;strong&gt;Fast Forward&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/kJWOwzJw5_c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/XvewOf-U7Gw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&#34;optimization-process&#34;&gt;&lt;strong&gt;Optimization Process&lt;/strong&gt;&lt;/h3&gt;
@@ -67,9 +67,19 @@
   &lt;iframe src=&#34;https://www.youtube.com/embed/JXtlrBec4Rs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;code-and-dataset&#34;&gt;&lt;strong&gt;Code and Dataset&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;We create a benchmark of 1791 examples for evaluating free-boundary injective mapping with positional constraints.&lt;/p&gt;
-&lt;p&gt;Code and the benchmark dataset will be released soon.&lt;/p&gt;
+&lt;h2 id=&#34;dataset&#34;&gt;&lt;strong&gt;Dataset&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;We create a benchmark dataset for evaluating various methods&amp;rsquo; capability to recover an injective mapping from a non-injective initial mapping while keeping a group of positional constraints in place.&lt;/p&gt;
+&lt;p&gt;The dataset includes 1791 triangular mesh examples. Each example contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;input.obj&lt;/code&gt;: rest mesh and initial mesh (as UV coordinates)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;handles.txt&lt;/code&gt;: list of indices of the fixed vertices&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;groundTruth.obj&lt;/code&gt;: globally injective mesh satisfying positional constraints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We also provide the result of our method for each example.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://doi.org/10.5281/zenodo.5547887&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Download Dataset&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;code&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Code will be released soon.&lt;/p&gt;
 &lt;h2 id=&#34;figures&#34;&gt;&lt;strong&gt;Figures&lt;/strong&gt;&lt;/h2&gt;
 
 
