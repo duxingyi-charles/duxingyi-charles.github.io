@@ -5,12 +5,93 @@
     <link>https://duxingyi-charles.github.io/author/nathan-carr/</link>
       <atom:link href="https://duxingyi-charles.github.io/author/nathan-carr/index.xml" rel="self" type="application/rss+xml" />
     <description>Nathan Carr</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 21 May 2021 17:23:54 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 28 Apr 2022 17:23:54 -0500</lastBuildDate>
     <image>
       <url>https://duxingyi-charles.github.io/img/avatar.jpg</url>
       <title>Nathan Carr</title>
       <link>https://duxingyi-charles.github.io/author/nathan-carr/</link>
     </image>
+    
+    <item>
+      <title>Robust Computation of Implicit Surface Networks for Piecewise Linear Functions</title>
+      <link>https://duxingyi-charles.github.io/publication/robust-computation-of-implicit-surface-networks-for-piecewise-linear-functions/</link>
+      <pubDate>Thu, 28 Apr 2022 17:23:54 -0500</pubDate>
+      <guid>https://duxingyi-charles.github.io/publication/robust-computation-of-implicit-surface-networks-for-piecewise-linear-functions/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-1-implicit-surface-networks-such-as-implicit-arrangement-left-obtained-for-primitive-geometry-defining-a-cad-object-and-material-interfaces-right-the-voronoi-diagram-of-rotating-3d-lines-produced-by-our-robust-algorithms-each-example-is-visualized-by-its-surface-patches-non-manifold-curve-network-as-well-as-the-3d-regions-partitioned-by-the-surface-network&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/Implicit_network/fig-teaser.jpg&#34; data-caption=&#34;Figure 1. Implicit surface networks, such as implicit arrangement (left, obtained for primitive geometry defining a CAD object) and material interfaces (right, the Voronoi diagram of rotating 3D lines), produced by our robust algorithms. Each example is visualized by its surface patches, non-manifold curve network as well as the 3D regions partitioned by the surface network.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/Implicit_network/fig-teaser.jpg&#34; alt=&#34;featured&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 1. Implicit surface networks, such as implicit arrangement (left, obtained for primitive geometry defining a CAD object) and material interfaces (right, the Voronoi diagram of rotating 3D lines), produced by our robust algorithms. Each example is visualized by its surface patches, non-manifold curve network as well as the 3D regions partitioned by the surface network.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;abstract&#34;&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Implicit surface networks, such as arrangements of implicit surfaces and materials interfaces, are used for modeling piecewise smooth or partitioned shapes. However, accurate and numerically robust algorithms for discretizing either structure on a grid are still lacking. We present a unified approach for computing both types of surface networks for piecewise linear functions defined on a tetrahedral grid. Both algorithms are guaranteed to produce a correct combinatorial structure for any number of functions. Our main contribution is an exact and efficient method for partitioning a tetrahedron using the level sets of linear functions defined by barycentric interpolation. To further improve performance, we designed look-up tables to speed up processing of tetrahedra involving few functions and introduced an efficient algorithm for identifying nested 3D regions.&lt;/p&gt;
+&lt;h2 id=&#34;code&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Source code will be released soon.&lt;/p&gt;
+&lt;h2 id=&#34;figures&#34;&gt;&lt;strong&gt;Figures&lt;/strong&gt;&lt;/h2&gt;
+&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-2-three-successful-examples-from-the-benchmark-initial-maps-first-column-maps-produced-by-our-method-second-column-which-are-all-globally-injective-and-maps-produced-by-lbd-third-column-and-sa-last-column-none-of-which-are-locally-or-globally-injective&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/SEA/fig-success.png&#34; data-caption=&#34;Figure 2. Three successful examples from the benchmark: initial maps (first column), maps produced by our method (second column), which are all globally injective, and maps produced by LBD (third column) and SA (last column), none of which are locally or globally injective.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/SEA/fig-success.png&#34; alt=&#34;fig-success&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 2. Three successful examples from the benchmark: initial maps (first column), maps produced by our method (second column), which are all globally injective, and maps produced by LBD (third column) and SA (last column), none of which are locally or globally injective.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+ --&gt;
+</description>
+    </item>
     
     <item>
       <title>Boundary-Sampled Halfspaces: A New Representation for Constructive Solid Modeling</title>
