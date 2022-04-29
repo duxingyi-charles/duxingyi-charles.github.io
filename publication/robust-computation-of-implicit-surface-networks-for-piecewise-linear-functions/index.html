@@ -281,7 +281,7 @@
     
       <meta property="article:published_time" content="2022-04-28T17:23:54-05:00">
     
-    <meta property="article:modified_time" content="2022-04-29T10:14:21-05:00">
+    <meta property="article:modified_time" content="2022-04-29T10:52:32-05:00">
   
 
   
@@ -312,7 +312,7 @@
   ],
   
   "datePublished": "2022-04-28T17:23:54-05:00",
-  "dateModified": "2022-04-29T10:14:21-05:00",
+  "dateModified": "2022-04-29T10:52:32-05:00",
   
   "author": {
     "@type": "Person",
@@ -692,25 +692,6 @@
 </a>
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-    
-      
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/Optimizing-Global-Injectivity-for-Constrained-Parameterization-low-res.pdf" >
-    
-    PDF (Low Res)
-  </a>
-
 
 </div>
 
@@ -766,10 +747,7 @@
 
 <h3 id="abstract"><strong>Abstract</strong></h3>
 <p>Implicit surface networks, such as arrangements of implicit surfaces and materials interfaces, are used for modeling piecewise smooth or partitioned shapes. However, accurate and numerically robust algorithms for discretizing either structure on a grid are still lacking. We present a unified approach for computing both types of surface networks for piecewise linear functions defined on a tetrahedral grid. Both algorithms are guaranteed to produce a correct combinatorial structure for any number of functions. Our main contribution is an exact and efficient method for partitioning a tetrahedron using the level sets of linear functions defined by barycentric interpolation. To further improve performance, we designed look-up tables to speed up processing of tetrahedra involving few functions and introduced an efficient algorithm for identifying nested 3D regions.</p>
-<h2 id="code"><strong>Code</strong></h2>
-<p>Source code will be released soon.</p>
-<h2 id="figures"><strong>Figures</strong></h2>
-<!-- 
+<h2 id="results"><strong>Results</strong></h2>
 
 
 
@@ -784,25 +762,62 @@
 
 
 
-<figure id="figure-figure-2-three-successful-examples-from-the-benchmark-initial-maps-first-column-maps-produced-by-our-method-second-column-which-are-all-globally-injective-and-maps-produced-by-lbd-third-column-and-sa-last-column-none-of-which-are-locally-or-globally-injective">
+
+<figure id="figure-figure-2-implict-arrangements-computed-by-our-algorithm-on-implicit-functions-representing-cad-models-each-example-shows-the-non-manifold-curve-networks-patches-and-3d-regions-in-exploded-view-complexity-of-each-example-running-time-of-our-method-full-pipeline-and-mesh-arrangement-are-noted">
 
 
-  <a data-fancybox="" href="/img/SEA/fig-success.png" data-caption="Figure 2. Three successful examples from the benchmark: initial maps (first column), maps produced by our method (second column), which are all globally injective, and maps produced by LBD (third column) and SA (last column), none of which are locally or globally injective.">
+  <a data-fancybox="" href="/img/Implicit_network/fig-ia-results.jpg" data-caption="Figure 2. Implict arrangements computed by our algorithm on implicit functions representing CAD models. Each example shows the non-manifold curve networks, patches, and 3D regions (in exploded view). Complexity of each example, running time of our method (full pipeline) and mesh arrangement are noted.">
 
 
-  <img src="/img/SEA/fig-success.png" alt="fig-success"  >
+  <img src="/img/Implicit_network/fig-ia-results.jpg" alt="fig-ia-results"  >
 </a>
 
 
   
   
   <figcaption>
-    Figure 2. Three successful examples from the benchmark: initial maps (first column), maps produced by our method (second column), which are all globally injective, and maps produced by LBD (third column) and SA (last column), none of which are locally or globally injective.
+    Figure 2. Implict arrangements computed by our algorithm on implicit functions representing CAD models. Each example shows the non-manifold curve networks, patches, and 3D regions (in exploded view). Complexity of each example, running time of our method (full pipeline) and mesh arrangement are noted.
   </figcaption>
 
 
 </figure>
- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-3-voronoi-diagrams-of-3d-lines-top-left-5-rotating-lines-top-right-20-rotating-lines-bottom-left-21-lines-that-sweep-a-mobius-strip-and-circles-bottom-right-22-villarceau-circles-on-two-tori-computed-by-our-algorithm-and-the-label-separating-algorithm-the-zoom-in-views-highlight-regions-on-the-non-manifold-curve-networks-where-the-two-algorithms-produce-notably-different-geometry-andor-topology-the-combinatorial-complexity-of-each-surface-network-and-the-running-times-up-to-mesh-extraction-before-space-decomposition-are-noted">
+
+
+  <a data-fancybox="" href="/img/Implicit_network/fig-mi-dc-results.jpg" data-caption="Figure 3. Voronoi diagrams of 3D lines (top left: 5 rotating lines; top right: 20 rotating lines; bottom left: 21 lines that sweep a Mobius strip) and circles (bottom right: 22 Villarceau circles on two tori) computed by our algorithm and the label-separating algorithm. The zoom-in views highlight regions on the non-manifold curve networks where the two algorithms produce notably different geometry and/or topology. The combinatorial complexity of each surface network and the running times (up to mesh extraction, before space decomposition) are noted.">
+
+
+  <img src="/img/Implicit_network/fig-mi-dc-results.jpg" alt="fig-mi-dc-results"  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Figure 3. Voronoi diagrams of 3D lines (top left: 5 rotating lines; top right: 20 rotating lines; bottom left: 21 lines that sweep a Mobius strip) and circles (bottom right: 22 Villarceau circles on two tori) computed by our algorithm and the label-separating algorithm. The zoom-in views highlight regions on the non-manifold curve networks where the two algorithms produce notably different geometry and/or topology. The combinatorial complexity of each surface network and the running times (up to mesh extraction, before space decomposition) are noted.
+  </figcaption>
+
+
+</figure>
+
+<h2 id="code"><strong>Code</strong></h2>
+<p>Source code will be released soon.</p>
 </div>
 
     
