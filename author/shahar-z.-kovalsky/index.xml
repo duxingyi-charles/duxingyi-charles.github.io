@@ -5,12 +5,174 @@
     <link>https://duxingyi-charles.github.io/author/shahar-z.-kovalsky/</link>
       <atom:link href="https://duxingyi-charles.github.io/author/shahar-z.-kovalsky/index.xml" rel="self" type="application/rss+xml" />
     <description>Shahar Z. Kovalsky</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sat, 18 Sep 2021 17:23:54 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 09 Oct 2022 17:23:54 -0500</lastBuildDate>
     <image>
       <url>https://duxingyi-charles.github.io/img/avatar.jpg</url>
       <title>Shahar Z. Kovalsky</title>
       <link>https://duxingyi-charles.github.io/author/shahar-z.-kovalsky/</link>
     </image>
+    
+    <item>
+      <title>Isometric Energies for Recovering Injectivity in Constrained Mapping</title>
+      <link>https://duxingyi-charles.github.io/publication/isometric-energies-for-recovering-injectivity-in-constrained-mapping/</link>
+      <pubDate>Sun, 09 Oct 2022 17:23:54 -0500</pubDate>
+      <guid>https://duxingyi-charles.github.io/publication/isometric-energies-for-recovering-injectivity-in-constrained-mapping/</guid>
+      <description>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-1-when-used-to-parameterize-meshes-into-the-2d-plane-our-isometric-variants-of-injectivity-energies-empirically-tend-to-yield-injective-results-with-low-isometric-distortion-left-an-initial-map-of-lucy-into-letter-s-which-contains-many-inverted-triangles-red-is-optimized-while-holding-its-boundary-fixed-using-the-tlc-energy-du-et-al-2020-the-fold-free-mapping-ffm-method-of-garanzha-et-al-2021-and-our-energy---isotlc-right-an-initial-map-which-contains-inverted-triangles-red-overwinding-vertices-purple-and-global-overlaps-boxed-is-optimized-while-fixing-only-a-set-of-sparse-positional-constraints-blue-without-constraining-the-boundary-by-minimizing-either-the-sea-energy-of-du-et-al-2020-or-our-energy-isosea-in-both-cases-our-method-leads-to-the-injective-map-with-the-lowest-isometric-distortion-max𝜎1-1𝜎2-of-the-triangles-as-shown-by-the-histograms-and-the-color-map-on-the-mesh&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/Iso_TLC_SEA/teaser.png&#34; data-caption=&#34;Figure 1. When used to parameterize meshes into the 2D plane, our isometric variants of injectivity energies empirically tend to yield injective results with low isometric distortion. Left: an initial map of Lucy into letter S, which contains many inverted triangles (red), is optimized while holding its boundary fixed, using the TLC energy [Du et al. 2020], the Fold-Free Mapping (FFM) method of [Garanzha et al. 2021], and our energy - IsoTLC. Right: an initial map, which contains inverted triangles (red), overwinding vertices (purple) and global overlaps (boxed), is optimized while fixing only a set of sparse positional constraints (blue) without constraining the boundary, by minimizing either the SEA energy of [Du et al. 2020] or our energy, IsoSEA. In both cases, our method leads to the injective map with the lowest isometric distortion (max(𝜎1, 1/𝜎2)) of the triangles, as shown by the histograms and the color map on the mesh.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/Iso_TLC_SEA/teaser.png&#34; alt=&#34;featured&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 1. When used to parameterize meshes into the 2D plane, our isometric variants of injectivity energies empirically tend to yield injective results with low isometric distortion. Left: an initial map of Lucy into letter S, which contains many inverted triangles (red), is optimized while holding its boundary fixed, using the TLC energy [Du et al. 2020], the Fold-Free Mapping (FFM) method of [Garanzha et al. 2021], and our energy - IsoTLC. Right: an initial map, which contains inverted triangles (red), overwinding vertices (purple) and global overlaps (boxed), is optimized while fixing only a set of sparse positional constraints (blue) without constraining the boundary, by minimizing either the SEA energy of [Du et al. 2020] or our energy, IsoSEA. In both cases, our method leads to the injective map with the lowest isometric distortion (max(𝜎1, 1/𝜎2)) of the triangles, as shown by the histograms and the color map on the mesh.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;abstract&#34;&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Computing injective maps with low distortions is a long-standing problem in computer graphics. Such maps are particularly challenging to obtain in the presence of positional constraints, because an injective initial map is often not available. Recently, several energies were proposed and shown to be highly successful in optimizing injectivity from non-injective initial maps while satisfying positional constraints. However, minimizing these energies tends to produce elements with significant isometric distortions. This paper presents simple variants of these energies that retain their desirable traits while promoting isometry. While our method is not guaranteed to provide an injective map, we observe that, on large-scale 2D and 3D data sets, minimizing the proposed isometric variants results in a similar level of success in recovering injectivity as the original energies but a significantly lower isometric distortion.&lt;/p&gt;
+&lt;h2 id=&#34;video&#34;&gt;&lt;strong&gt;Video&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;fast-forward&#34;&gt;&lt;strong&gt;Fast Forward&lt;/strong&gt;&lt;/h3&gt;
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/XvewOf-U7Gw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;h2 id=&#34;code&#34;&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Coming soon.&lt;/p&gt;
+&lt;!-- ## **Figures**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-2-three-successful-examples-from-the-benchmark-initial-maps-first-column-maps-produced-by-our-method-second-column-which-are-all-globally-injective-and-maps-produced-by-lbd-third-column-and-sa-last-column-none-of-which-are-locally-or-globally-injective&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/SEA/fig-success.png&#34; data-caption=&#34;Figure 2. Three successful examples from the benchmark: initial maps (first column), maps produced by our method (second column), which are all globally injective, and maps produced by LBD (third column) and SA (last column), none of which are locally or globally injective.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/SEA/fig-success.png&#34; alt=&#34;fig-success&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 2. Three successful examples from the benchmark: initial maps (first column), maps produced by our method (second column), which are all globally injective, and maps produced by LBD (third column) and SA (last column), none of which are locally or globally injective.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-3-from-left-to-right-input-meshes-with-one-or-two-boundaries-non-injective-initial-maps-globally-injective-maps-produced-by-our-method-sea-and-results-of-lbd-and-sa-both-lbd-and-sa-have-removed-most-or-all-inverted-triangles-but-the-results-are-neither-locally-or-globally-injective-due-to-overwound-vertices-and-boundary-intersections&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/SEA/fig-toys.png&#34; data-caption=&#34;Figure 3. From left to right: input meshes (with one or two boundaries), non-injective initial maps, globally injective maps produced by our method (SEA), and results of LBD and SA. Both LBD and SA have removed most or all inverted triangles, but the results are neither locally or globally injective due to overwound vertices and boundary intersections.&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/SEA/fig-toys.png&#34; alt=&#34;fig-toys&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 3. From left to right: input meshes (with one or two boundaries), non-injective initial maps, globally injective maps produced by our method (SEA), and results of LBD and SA. Both LBD and SA have removed most or all inverted triangles, but the results are neither locally or globally injective due to overwound vertices and boundary intersections.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-figure-4-two-initial-maps-with-overwound-vertices-top-and-the-injective-maps-produced-by-our-method-bottom&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://duxingyi-charles.github.io/img/SEA/fig-overwound-1-rings.png&#34; data-caption=&#34;Figure 4. Two initial maps with overwound vertices (top) and the injective maps produced by our method (bottom).&#34;&gt;
+
+
+  &lt;img src=&#34;https://duxingyi-charles.github.io/img/SEA/fig-overwound-1-rings.png&#34; alt=&#34;fig-overwound-1-rings&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Figure 4. Two initial maps with overwound vertices (top) and the injective maps produced by our method (bottom).
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+ --&gt;
+&lt;!-- ### **Acknowledgments**
+
+This work is supported in part by NSF grant RI-1618685, NIH grant U2C CA233303-1, and Simons Math+X Investigators Award 400837. We would like to thank authors of several papers for providing code, data, and help with comparisons, and especially Hanxiao Shen, Ofir Weber, Alon Bright, Zohar Levi, and Xiao-Ming Fu. --&gt;
+</description>
+    </item>
     
     <item>
       <title>Optimizing Global Injectivity for Constrained Parameterization</title>
