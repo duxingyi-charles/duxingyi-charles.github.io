@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hongyi Cao | Xingyi Du&#39;s Homepage</title>
+    <link>https://duxingyi-charles.github.io/author/hongyi-cao/</link>
+      <atom:link href="https://duxingyi-charles.github.io/author/hongyi-cao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hongyi Cao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 01 Jul 2026 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>https://duxingyi-charles.github.io/img/avatar.jpg</url>
+      <title>Hongyi Cao</title>
+      <link>https://duxingyi-charles.github.io/author/hongyi-cao/</link>
+    </image>
+    
+    <item>
+      <title>Practical Occluder Generation for Mobile Games</title>
+      <link>https://duxingyi-charles.github.io/publication/practical-occluder-generation-for-mobile-games/</link>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 -0700</pubDate>
+      <guid>https://duxingyi-charles.github.io/publication/practical-occluder-generation-for-mobile-games/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
