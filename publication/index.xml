@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>CSG Sweeps: Feature-aware sweep surfacing of deformable CSGs</title>
+      <link>https://duxingyi-charles.github.io/publication/csg-sweeps/</link>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 -0800</pubDate>
+      <guid>https://duxingyi-charles.github.io/publication/csg-sweeps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Practical Occluder Generation for Mobile Games</title>
       <link>https://duxingyi-charles.github.io/publication/practical-occluder-generation-for-mobile-games/</link>
       <pubDate>Wed, 01 Jul 2026 00:00:00 -0700</pubDate>
@@ -41,6 +49,14 @@
       <link>https://duxingyi-charles.github.io/publication/rl-acd-reinforcement-learning-based-approximate-convex-decomposition/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 -0500</pubDate>
       <guid>https://duxingyi-charles.github.io/publication/rl-acd-reinforcement-learning-based-approximate-convex-decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Random Affine Transformation Feature Representation Learning for Fast Polygon Retrieval</title>
+      <link>https://duxingyi-charles.github.io/publication/random-affine-transformation-features/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>https://duxingyi-charles.github.io/publication/random-affine-transformation-features/</guid>
       <description></description>
     </item>
     

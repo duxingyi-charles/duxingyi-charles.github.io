@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jianjun Xia | Xingyi Du&#39;s Homepage</title>
+    <link>https://duxingyi-charles.github.io/author/jianjun-xia/</link>
+      <atom:link href="https://duxingyi-charles.github.io/author/jianjun-xia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jianjun Xia</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 09 Nov 2026 00:00:00 -0800</lastBuildDate>
+    <image>
+      <url>https://duxingyi-charles.github.io/img/avatar.jpg</url>
+      <title>Jianjun Xia</title>
+      <link>https://duxingyi-charles.github.io/author/jianjun-xia/</link>
+    </image>
+    
+    <item>
+      <title>CSG Sweeps: Feature-aware sweep surfacing of deformable CSGs</title>
+      <link>https://duxingyi-charles.github.io/publication/csg-sweeps/</link>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 -0800</pubDate>
+      <guid>https://duxingyi-charles.github.io/publication/csg-sweeps/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
